@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ___________header_________ */
+
+.colosal{
+    background-color: rgb(20, 11, 41);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+header button{
+    background: #FFFFFF1A;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: none;
+}
+header div{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    color: white;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* _____________section-1_________ */
+.section-1{
+    color: white;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+section p{
+    line-height: 40px;
+}
+section h5{
+    color: #0abf9e;
+}
+section div button{
+    padding: 10px 40px;
+    color: white;
+    background: #FFFFFF1A;
+    border-radius: 2px;
+    border: none;
+}
+.btn{
+    background: #9a30fd;
+}
+section div{
+    display: flex;
+    gap: 50px;
+}
+
+/* _____________________section-2_______________ */
+
+.section-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  width: 800px;
+  margin: 80px auto;
+  position: relative;
+  right: 140px;
+}
+.they{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #2f3c5a0d;
+  width: 340px;
+  height: 280px; 
+  padding: 30px;
+}
+.img-1{
+    width: 50px;
+    height: 50px;
+    border: 3px;
+}
+h4{
+    color: white;
+}
+.p-1{
+    color: white;
+}
+
+
+
+/* ______________________section-3____________________ */
+
+.sect-3{
+    border: 1px solid #000000;
+    display: flex;
+    height: 100px;
+    position: relative;
+    bottom: 30px;
+    img{
+        width: 200px;
+        margin: auto;
+    }
+}
